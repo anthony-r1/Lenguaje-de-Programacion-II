@@ -5,13 +5,13 @@ class TrianguloRectangulo:
         self.catb = catb
     
     def calcular_hipo(self):
-        hipotenusa = math.sqrt{self.cata**2 + self.catb**2}
+        hipotenusa = math.sqrt(self.cata**2 + self.catb**2)
         return hipotenusa
     
     def __del__(self):
-        print("Objeto Tiangulo Rectangulo fue Destruido")
+        print("Objeto Triangulo Rectangulo fue Destruido")
 
-def main()
+def main():
     try:
         cateto_a = float(input("Ingrese el valor del cateto a: "))
         cateto_b = float(input("Ingrese el valor del cateto b: "))
@@ -29,3 +29,5 @@ def main()
     except ValueError:
         print("Error: Entrada no válida. Por favor, ingrese números.")
         
+if __name__ == "__main__":
+    main()
