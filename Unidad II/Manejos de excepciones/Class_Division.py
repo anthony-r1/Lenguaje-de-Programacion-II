@@ -15,6 +15,6 @@ class Division:
             print("Proceso de división concluido.")
 
 valor_a = 10
-valor_b = "cero"
+valor_b = 0
 operacion = Division(valor_a, valor_b)
 print(f"Resultado de la operación: {operacion.dividir()}")
